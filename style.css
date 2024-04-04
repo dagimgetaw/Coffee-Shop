@@ -1,0 +1,57 @@
+:root {
+  --clr-background: #222831;
+  --clr-font: #eeeeee;
+  --font-word: "Josefin Sans", sans-serif;
+  --font-title: "Sacramento", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  overflow-x: hidden;
+  background-color: var(--clr-background);
+}
+.title {
+  display: none;
+}
+@media (max-width: 990px) {
+  .title {
+    display: inline;
+    font-family: var(--font-title);
+    color: var(--clr-font);
+    font-size: 2rem;
+    padding-top: 16px;
+  }
+}
+@media (max-width: 341px) {
+  .title {
+    display: none;
+  }
+}
+@media (max-width: 180px) {
+  .navbar-logo {
+    display: none;
+  }
+}
+.navbar {
+  padding: 1.5rem 2rem;
+}
+header ul li a {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+}
+header ul li a:hover {
+  color: var(--clr-font);
+  text-decoration: none;
+}
+.delivery-title {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+}
+.delivery-title:hover {
+  text-decoration: none;
+  color: var(--clr-font);
+}
