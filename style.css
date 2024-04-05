@@ -249,3 +249,43 @@ video {
   font-size: 1.2em;
   text-decoration: line-through;
 }
+
+/* Review */
+.review {
+  background-color: var(--clr-background);
+}
+.close-quotes {
+  margin-left: 100%;
+}
+.review-box h3 {
+  text-align: center;
+  color: var(--clr-font);
+  font-family: var(--font-word);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.review-para {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+  text-align: center;
+}
+.review-box {
+  align-items: center;
+  padding: 3rem 6rem 6rem 6rem;
+}
+.male-img,
+.female-img {
+  display: block;
+  margin: 2rem auto;
+}
+.star {
+  display: block;
+  width: 25%;
+  margin: 2rem auto;
+}
+.checked {
+  color: var(--clr-hover);
+}
+.not-checked {
+  color: var(--clr-font);
+}
