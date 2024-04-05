@@ -330,3 +330,36 @@ video {
 .contact-btn:hover {
   background-color: var(--clr-hover);
 }
+
+/* fotter */
+.fotter {
+  background-color: var(--clr-background);
+  display: grid;
+  color: var(--clr-font);
+  justify-content: center;
+  padding-top: 6rem;
+}
+.fotter-icon {
+  font-size: 2.5em;
+  overflow: hidden;
+  padding: 1rem;
+}
+.bottom {
+  display: flex;
+  padding-top: 2rem;
+}
+.fotter-img {
+  margin: 1rem;
+}
+.fotter-title {
+  color: var(--clr-font);
+  font-size: 4em;
+  font-family: var(--font-title);
+  text-align: center;
+}
+.fotter-para {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+  font-size: 1em;
+  text-align: center;
+}
