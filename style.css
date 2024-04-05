@@ -202,3 +202,50 @@ video {
   font-size: 1.2em;
   padding-right: 6rem;
 }
+
+/* Product */
+
+.product {
+  background-color: var(--clr-background);
+}
+.box {
+  border: 1px solid var(--clr-font);
+}
+.product .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.product .box-container .box {
+  padding: 3rem 6rem 0 6rem;
+  text-align: center;
+  border: var(--clr-font);
+}
+.product .box-container .box h3 {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+  font-size: 1.5em;
+  padding: 1rem 0;
+}
+.product-para {
+  text-align: center;
+  font-family: var(--font-word);
+  color: var(--clr-font);
+}
+.product-btn {
+  font-family: var(--font-word);
+  color: var(--clr-font);
+  margin-top: 2rem;
+}
+.product-btn:hover {
+  background-color: var(--clr-hover);
+}
+.product .box-container .box .price {
+  color: var(--clr-font);
+  font-size: 1.2em;
+  overflow: hidden;
+}
+.product .box-container .box .price span {
+  font-size: 1.2em;
+  text-decoration: line-through;
+}
