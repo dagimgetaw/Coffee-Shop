@@ -289,3 +289,44 @@ video {
 .not-checked {
   color: var(--clr-font);
 }
+
+/* Contact */
+.contact {
+  background-color: var(--clr-background);
+}
+.map {
+  padding: 1rem;
+}
+.form {
+  padding-top: 5rem;
+}
+.contact-link {
+  color: var(--clr-font);
+}
+.contact-title {
+  color: var(--clr-font);
+  font-family: var(--font-title);
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.name,
+.email {
+  padding-top: 2rem;
+  padding-right: 6rem;
+}
+.textarea {
+  padding-right: 6rem;
+}
+.contact-btn {
+  font-family: var(--font-word);
+  color: var(--clr-font);
+  margin-top: 2rem;
+  margin-left: 40%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.contact-btn:hover {
+  background-color: var(--clr-hover);
+}
