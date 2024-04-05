@@ -65,6 +65,7 @@ header ul li a:hover {
 
 .home-page {
   position: relative;
+  background-color: var(--clr-background);
 }
 video {
   padding-top: 3rem;
@@ -166,4 +167,38 @@ video {
   .btn2 {
     left: 34rem;
   }
+}
+
+/* About US */
+
+.about-container {
+  padding-top: 0;
+  background-color: var(--clr-background);
+}
+.about-title {
+  text-align: center;
+  color: var(--clr-font);
+  font-weight: bold;
+  font-family: var(--font-title);
+  font-size: 4em;
+  overflow: hidden;
+  padding-top: 5rem;
+}
+.about-title-two {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.about-image {
+  object-fit: fill;
+  max-width: 100%;
+  min-height: 100%;
+}
+.about-para {
+  color: var(--clr-font);
+  font-family: var(--font-word);
+  text-align: left;
+  font-size: 1.2em;
+  padding-right: 6rem;
 }
