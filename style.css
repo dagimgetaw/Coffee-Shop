@@ -363,3 +363,9 @@ video {
   font-size: 1em;
   text-align: center;
 }
+.icons a {
+  color: var(--clr-font);
+}
+.icons a:hover {
+  color: var(--clr-hover);
+}
